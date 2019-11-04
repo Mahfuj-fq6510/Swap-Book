@@ -75,7 +75,6 @@ error_reporting(E_ALL);
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 <div id="sectionMain" class="h-100">
@@ -88,7 +87,6 @@ error_reporting(E_ALL);
 									
 									<button type="submit"  id="doSearch" name="doSearch" value="yes" class="btn btn-primary"><i class="fas fa-search text-grey"
 										   aria-hidden="true"></i></button>
-
 									</span>
 								</div>
 							</div>
@@ -98,13 +96,13 @@ error_reporting(E_ALL);
 							<div class="col">
 								<label class="radio-inline">
 									<input type="radio" name="type" id="Radios1" value="1">
-									New
+									New Book
 								</label>
 							</div>
 							<div class="col">
 								<label class="radio-inline">
 									<input type="radio" name="type" id="Radios2" value="2">
-									Used
+									Used Book
 								</label>
 							</div>
 							<div class="col">
@@ -144,7 +142,6 @@ error_reporting(E_ALL);
                             Welcome to Swap-Book.
                             <br>
                             <br>
-
 <?php echo "hello world"; ?>
                             <br>
                             A site which will help you to give back to the Wayne State Community!
