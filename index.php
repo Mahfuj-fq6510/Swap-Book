@@ -4,10 +4,8 @@
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 	require("includes/session.php");  ?>
-	
 	<?php  require("includes/mainConnection.php");  ?>
 		<?php  require("includes/logIn.php");  ?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -118,8 +116,7 @@ error_reporting(E_ALL);
 				
 					<div class="row">
 					<div class="row">
-					<table>
-						
+					<table>	
 					<?php
 					if(isset($SearchResult))
 					{
